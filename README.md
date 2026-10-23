@@ -126,18 +126,7 @@ python -m unittest test_chatbot.py -v
 
 ---
 
-## 🎓 Viva Voce / Exam Q&A Reference
 
-* **Q: Why use TF-IDF over simple word counts (Bag of Words)?**
-  * *A:* Bag of Words only tracks frequency, giving high weight to words that appear often even if they are common across all documents. TF-IDF balances Term Frequency with Inverse Document Frequency, penalizing terms that appear everywhere and elevating distinct, content-rich words.
-
-* **Q: How does Cosine Similarity differ from Euclidean Distance?**
-  * *A:* Cosine similarity measures the angle between vectors rather than vector magnitude. In text retrieval, two documents with similar topical word distributions will have a high cosine similarity regardless of whether one document is 10 words long and the other is 100 words long.
-
-* **Q: What is the purpose of the confidence threshold?**
-  * *A:* Without a confidence threshold, the chatbot would select the nearest intent even for completely irrelevant queries (e.g. asking for cooking recipes). The threshold ensures that low-similarity queries trigger a polite fallback instead of an erroneous answer.
-
----
 
 ## 🤝 Contributing
 
