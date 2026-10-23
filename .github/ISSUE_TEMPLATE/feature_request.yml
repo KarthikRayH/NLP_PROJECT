@@ -1,0 +1,28 @@
+name: Feature / Intent Request
+description: Propose a new NLP concept, intent, or system capability
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for suggesting an enhancement!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Motivation
+      description: What new topic, intent, or feature would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_patterns
+    attributes:
+      label: Example Query Patterns
+      description: What are typical questions users might ask for this intent?
+      placeholder: |
+        - What is BERT?
+        - How do transformer models work?
+  - type: textarea
+    id: proposed_responses
+    attributes:
+      label: Suggested Response(s)
+      description: What explanation should the chatbot provide?

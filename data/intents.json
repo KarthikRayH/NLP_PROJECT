@@ -1,0 +1,228 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hey there",
+        "greetings",
+        "what's up",
+        "howdy"
+      ],
+      "responses": [
+        "Hello! I am your NLP Assistant. Ask me anything about Natural Language Processing!",
+        "Hi there! How can I help you explore NLP concepts today?",
+        "Greetings! Ready to dive into Natural Language Processing and text analytics?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you later",
+        "exit",
+        "quit",
+        "have a good day",
+        "farewell"
+      ],
+      "responses": [
+        "Goodbye! Happy learning and good luck with your NLP project!",
+        "See you later! Feel free to come back whenever you have NLP questions.",
+        "Farewell! Keep exploring Natural Language Processing!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "appreciate it",
+        "thanks a lot",
+        "thank you so much",
+        "helpful"
+      ],
+      "responses": [
+        "You're very welcome! Glad I could help.",
+        "Anytime! Feel free to ask more questions.",
+        "Happy to help you learn!"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "who are you",
+        "what is your name",
+        "tell me about yourself",
+        "what are you",
+        "are you a bot",
+        "who created you"
+      ],
+      "responses": [
+        "I am an educational NLP Chatbot built using Python, TF-IDF vectorization, and Cosine Similarity.",
+        "I'm a classic NLP Chatbot designed to demonstrate text preprocessing, vector space modeling, and intent matching."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "what can you do",
+        "how do you work",
+        "what can I ask",
+        "commands",
+        "guide"
+      ],
+      "responses": [
+        "You can ask me about NLP topics like: Tokenization, Stemming, Lemmatization, Stop Words, Bag of Words, TF-IDF, N-grams, or Sentiment Analysis! You can also chat normally."
+      ]
+    },
+    {
+      "tag": "what_is_nlp",
+      "patterns": [
+        "what is nlp",
+        "define nlp",
+        "explain natural language processing",
+        "what does nlp stand for",
+        "meaning of nlp",
+        "introduction to nlp"
+      ],
+      "responses": [
+        "Natural Language Processing (NLP) is a branch of Artificial Intelligence (AI) that enables computers to understand, interpret, and generate human language in text or speech form."
+      ]
+    },
+    {
+      "tag": "tokenization",
+      "patterns": [
+        "what is tokenization",
+        "explain tokenization",
+        "how does tokenization work",
+        "word tokenization",
+        "sentence tokenization",
+        "tokenize"
+      ],
+      "responses": [
+        "Tokenization is the process of breaking a stream of text into smaller units called tokens (such as words, subwords, or sentences). It is usually the first step in any NLP pipeline."
+      ]
+    },
+    {
+      "tag": "stopwords",
+      "patterns": [
+        "what are stop words",
+        "stop words in nlp",
+        "why remove stop words",
+        "explain stop words",
+        "stop words removal"
+      ],
+      "responses": [
+        "Stop words are frequently occurring words in a language (such as 'the', 'is', 'at', 'which') that usually carry little semantic information. In many NLP pipelines, they are filtered out to focus on meaningful keywords."
+      ]
+    },
+    {
+      "tag": "stemming_lemmatization",
+      "patterns": [
+        "what is stemming",
+        "what is lemmatization",
+        "difference between stemming and lemmatization",
+        "stemming vs lemmatization",
+        "explain lemmatization"
+      ],
+      "responses": [
+        "Stemming strips suffixes using heuristic rules (e.g., 'running' -> 'run'), which may result in non-dictionary roots. Lemmatization uses vocabulary and morphological analysis to reduce words to their actual dictionary base form (lemma)."
+      ]
+    },
+    {
+      "tag": "bag_of_words",
+      "patterns": [
+        "what is bag of words",
+        "explain bag of words",
+        "what is bow in nlp",
+        "bag of words model",
+        "how does bow work"
+      ],
+      "responses": [
+        "Bag of Words (BoW) is a text representation technique that represents text as the frequency of each word, disregarding grammar and word order but keeping track of word occurrences."
+      ]
+    },
+    {
+      "tag": "tfidf",
+      "patterns": [
+        "what is tf idf",
+        "explain tfidf",
+        "how does tf-idf work",
+        "what does tf idf stand for",
+        "term frequency inverse document frequency"
+      ],
+      "responses": [
+        "TF-IDF stands for Term Frequency-Inverse Document Frequency. It measures how important a word is to a document relative to a corpus. Frequent words across all documents get lower weight, while specific distinctive words get higher weight."
+      ]
+    },
+    {
+      "tag": "cosine_similarity",
+      "patterns": [
+        "what is cosine similarity",
+        "how does cosine similarity work",
+        "cosine distance",
+        "similarity metric in nlp",
+        "vector similarity"
+      ],
+      "responses": [
+        "Cosine similarity measures the cosine of the angle between two multi-dimensional vectors in a vector space. In NLP, it determines how semantically similar two text documents are, with 1 meaning identical orientation and 0 meaning completely orthogonal."
+      ]
+    },
+    {
+      "tag": "ngrams",
+      "patterns": [
+        "what are n-grams",
+        "explain ngrams",
+        "unigram bigram trigram",
+        "n gram model"
+      ],
+      "responses": [
+        "An n-gram is a contiguous sequence of n items (words or characters) from a text. A 1-gram is a unigram ('machine'), 2-gram is a bigram ('machine learning'), and 3-gram is a trigram ('natural language processing')."
+      ]
+    },
+    {
+      "tag": "sentiment_analysis",
+      "patterns": [
+        "what is sentiment analysis",
+        "explain sentiment analysis",
+        "opinion mining",
+        "how does sentiment analysis work"
+      ],
+      "responses": [
+        "Sentiment analysis (or opinion mining) uses NLP to detect whether a piece of text expresses positive, negative, or neutral sentiment towards a topic, product, or service."
+      ]
+    },
+    {
+      "tag": "nlp_applications",
+      "patterns": [
+        "applications of nlp",
+        "where is nlp used",
+        "nlp use cases",
+        "real world examples of nlp"
+      ],
+      "responses": [
+        "NLP is widely used in Machine Translation (Google Translate), Virtual Assistants (Siri, Alexa), Chatbots, Search Engines, Spam Filtering, Speech Recognition, and Text Summarization."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "what is machine learning",
+        "how is ml related to nlp",
+        "explain machine learning",
+        "difference between ai and ml"
+      ],
+      "responses": [
+        "Machine Learning (ML) is a subset of AI where algorithms learn patterns from data to make predictions or decisions without being explicitly programmed. Modern NLP relies heavily on ML and Deep Learning."
+      ]
+    }
+  ]
+}
